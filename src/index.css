@@ -11,3 +11,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.myClass {
+  display: inline-block;
+  color: green;
+  font-family:'Times New Roman', Times, serif;
+  transition: all 5s;
+}
+
+.myClass:hover { 
+  transform: rotate(3600deg);
+}
+
+.myButton {
+  transition: all 0s;
+  color: red;
+}
+
+.myButton:hover {
+  transform: translate(500px, 500px);
+}
+
+.big {
+  font-size: 70px;
+}
